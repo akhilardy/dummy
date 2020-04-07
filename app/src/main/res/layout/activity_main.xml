@@ -17,15 +17,28 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
            >
-            <EditText
-                android:id="@+id/editText"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Company Name"
-                />
+                android:layout_margin="10sp">
+                <TextView
+                    android:id="@+id/tvCom"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Company Name"
+                    />
+                <TextView
+                    android:id="@+id/finalView"
+                    android:layout_width="100sp"
+                    android:textColor="@color/colorText"
+                    android:textSize="40dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
 
     <TextView
         android:id="@+id/textView"
@@ -79,6 +92,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
+        android:id="@+id/companyName"
         />
     <TextView
         android:layout_width="match_parent"
@@ -94,34 +108,33 @@
     android:layout_height="wrap_content"
     android:layout_margin="10sp">
     <TextView
-        android:layout_width="60sp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-
+        android:layout_weight="1"
         android:text="Very High"/>
     <TextView
-        android:layout_width="60sp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:gravity="center"
-
+        android:layout_weight="1"
+        android:layout_marginStart="30dp"
         android:text="High"/>
 
     <TextView
-        android:layout_width="55dp"
-        android:layout_height="match_parent"
-        android:gravity="center"
-
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="20dp"
         android:text="Normal" />
     <TextView
-        android:layout_width="50sp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:gravity="center"
-
+        android:layout_weight="1"
+        android:layout_marginStart="30dp"
         android:text="Less"/>
     <TextView
-        android:layout_width="80sp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10sp"
-
+        android:layout_weight="1"
         android:text="Very Less"/>
 
 
@@ -138,32 +151,38 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10sp">
+            android:layout_weight="1"
+            >
         <TextView
-            android:layout_width="60sp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
             android:text="Worst"/>
         <TextView
-            android:layout_width="60sp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
             android:text="Better"/>
 
         <TextView
-            android:layout_width="66dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
             android:text="Normal" />
         <TextView
-            android:layout_width="60sp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="25dp"
             android:text="Good"/>
         <TextView
-            android:layout_width="60sp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
             android:text="Great"/>
 
         </LinearLayout>
@@ -180,36 +199,34 @@
             android:layout_height="wrap_content"
             android:layout_margin="10sp">
             <TextView
-                android:layout_width="40sp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
 
                 android:text="Never"/>
             <TextView
-                android:layout_width="60sp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
                 android:text="Some Times"/>
 
             <TextView
-                android:layout_width="66dp"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-
+                android:layout_weight="1"
 
                 android:text="Only Night shifts" />
             <TextView
-                android:layout_width="50sp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20sp"
-                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
 
                 android:text="Occasional"/>
             <TextView
-                android:layout_width="70sp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10sp"
-
-
+               android:layout_weight="1"
+                android:paddingLeft="20dp"
                 android:text="Dialy"/>
 
         </LinearLayout>
@@ -243,34 +260,34 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10sp">
                 <TextView
-                    android:layout_width="60sp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-
+                    android:layout_weight="1"
                     android:text="Weekly"/>
                 <TextView
-                    android:layout_width="60sp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-
+                    android:layout_weight="1"
+                    android:layout_marginStart="10dp"
                     android:text="Monthly"/>
 
                 <TextView
-                    android:layout_width="55dp"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="10dp"
                     android:text="Quaterly" />
                 <TextView
-                    android:layout_width="80sp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10sp"
-
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
                     android:text="Very Often"/>
                 <TextView
-                    android:layout_width="80sp"
+                    android:layout_width="0dp"
+                    android:layout_marginStart="15dp"
                     android:layout_height="wrap_content"
-
-
+                    android:layout_weight="1"
                     android:text="Never"/>
 
 
@@ -288,30 +305,33 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10sp">
                 <TextView
-                    android:layout_width="60sp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-
+                    android:layout_weight="1"
                     android:text="Very Easy"/>
                 <TextView
-                    android:layout_width="60sp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
                     android:text="Easy"/>
 
                 <TextView
-                    android:layout_width="66dp"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="Medium" />
                 <TextView
-                    android:layout_width="60sp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginStart="30dp"
                     android:text="Hard"/>
                 <TextView
-                    android:layout_width="60sp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
                     android:text="Killer"/>
 
             </LinearLayout>
@@ -398,6 +418,7 @@
             android:background="@drawable/submit"
             android:textColor="@color/white"
             android:layout_margin="10dp"
+            android:onClick="database"
 
 
             android:text="Submit"/>

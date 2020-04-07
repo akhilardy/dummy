@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "577540179082",
+    "firebase_url": "https://rateyouremployee.firebaseio.com",
+    "project_id": "rateyouremployee",
+    "storage_bucket": "rateyouremployee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577540179082:android:8b76eb07280c6fa6871973",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577540179082-15aq8ivq58c3vae839fmrtgvr4mvu325.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPvsIoIRVRXzOTEP9HfXAK1Ua8iprKrng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577540179082-15aq8ivq58c3vae839fmrtgvr4mvu325.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
